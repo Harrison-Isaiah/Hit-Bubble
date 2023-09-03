@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bahnschrift";
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(67.5deg, rgb(68, 65, 139) 0%, rgb(68, 65, 139) 2%, rgb(89, 77, 155) 2%, rgb(89, 77, 155) 18%, rgb(110, 88, 171) 18%, rgb(110, 88, 171) 23%, rgb(131, 100, 187) 23%, rgb(131, 100, 187) 64%, rgb(151, 111, 203) 64%, rgb(151, 111, 203) 93%, rgb(172, 123, 219) 93%, rgb(172, 123, 219) 95%, rgb(193, 134, 235) 95%, rgb(193, 134, 235) 100%), linear-gradient(22.5deg, rgb(68, 65, 139) 0%, rgb(68, 65, 139) 2%, rgb(89, 77, 155) 2%, rgb(89, 77, 155) 18%, rgb(110, 88, 171) 18%, rgb(110, 88, 171) 23%, rgb(131, 100, 187) 23%, rgb(131, 100, 187) 64%, rgb(151, 111, 203) 64%, rgb(151, 111, 203) 93%, rgb(172, 123, 219) 93%, rgb(172, 123, 219) 95%, rgb(193, 134, 235) 95%, rgb(193, 134, 235) 100%), linear-gradient(45deg, rgb(68, 65, 139) 0%, rgb(68, 65, 139) 2%, rgb(89, 77, 155) 2%, rgb(89, 77, 155) 18%, rgb(110, 88, 171) 18%, rgb(110, 88, 171) 23%, rgb(131, 100, 187) 23%, rgb(131, 100, 187) 64%, rgb(151, 111, 203) 64%, rgb(151, 111, 203) 93%, rgb(172, 123, 219) 93%, rgb(172, 123, 219) 95%, rgb(193, 134, 235) 95%, rgb(193, 134, 235) 100%), linear-gradient(90deg, rgb(68, 65, 139) 0%, rgb(68, 65, 139) 2%, rgb(89, 77, 155) 2%, rgb(89, 77, 155) 18%, rgb(110, 88, 171) 18%, rgb(110, 88, 171) 23%, rgb(131, 100, 187) 23%, rgb(131, 100, 187) 64%, rgb(151, 111, 203) 64%, rgb(151, 111, 203) 93%, rgb(172, 123, 219) 93%, rgb(172, 123, 219) 95%, rgb(193, 134, 235) 95%, rgb(193, 134, 235) 100%), linear-gradient(90deg, rgb(25, 139, 21), rgb(240, 31, 57));
+    background-blend-mode: overlay, overlay, overlay, overlay, normal;
+
+}
+
+#panel {
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+#ptop {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 0 25%;
+    justify-content: space-between;
+
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.elem {
+    align-items: center;
+    display: flex;
+    color: #fff;
+    gap: 10px;
+    ;
+}
+
+.box {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    font-weight: 900px;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#pbtm {
+    padding: 35px;
+    display: flex;
+    width: 100%;
+    height: calc(100% - 100px);
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+
+}
+
+.bubble {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+    box-shadow: 35px 35px 68px 0px rgba(8, 51, 107, 0.5), inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+
+
+}
+
+.bubble:hover {
+    background-color: #3a0345;
+}
+
+h2{
+    color: white;
+}
+#btnPLayAgain{
+    position: absolute;
+    bottom: 30%;
+    display: block;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    font-weight: 900px;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;   
+    cursor: pointer;
+}
+
+#btnPLayAgain:hover{
+    background: rgba(132, 132, 132, 0.25);
+}
